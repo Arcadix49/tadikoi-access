@@ -1,0 +1,425 @@
+.container-devel-pgs{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.logo-bloc {
+    position: relative;
+    background-image: url("/public/bglogo.png");
+    background-size: 85% 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    height: 300px;
+    margin-top: 13px;
+}
+
+
+
+.once{
+    z-index: 2;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    color :#65966D;
+    top: 275px;
+    margin: 0 5px 0 0
+
+}
+
+.intro{
+    height: 134px;
+}
+.text-intro{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #565867;
+    font-size: 14px;
+    font-weight: 700;
+    background: #EBEBEB;
+    top: -91px;
+    height: 189px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+ul {
+    
+    padding: 1em;
+    margin: 0;
+   
+    
+}
+
+.text-intro p {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 85%;
+    padding-bottom: 15px;
+}
+
+.sol-grs{
+    background-color: #EBEBEB;
+    height: 200px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+.mic img{
+    width: 100%;
+    
+}
+
+.mic2 img{
+    width: 100%;
+    
+}
+
+ul {
+    padding: 1.2em;
+}
+span{
+
+    margin-left: 4px;
+    
+}
+
+
+
+li {
+    
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+  
+  }
+
+  li svg{
+    margin-top: 4.5px;
+  }
+
+.form-area{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.triangle {
+    position: absolute;
+    top: 20px;
+    height: 0;
+    border-top: 115px solid transparent;
+    border-bottom: 134px solid transparent;
+    border-left: 100vw solid #9EBCB3;
+    z-index: -1;
+
+}
+
+.cont-form{
+    background-color: rgba(50, 50, 93, 0.25);
+    position: relative;
+    border-top: 6px solid #c83353;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 2;
+   
+
+}
+.form-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+form {
+    width: 98%;
+}
+
+input{
+    border:none;
+   
+    outline: none;
+    width: 46%;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+.full-sz{
+    width: 99%;
+    margin-top: 15px;
+   
+}
+.form-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+textarea{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    height:  auto;
+    min-height:86px;
+    outline: none;
+    margin-top: 10px;
+    width: 99%;
+
+}
+
+.submit-btn {
+    border: none;
+    background-color: #c83353;
+    width: 88px;
+    height: 18px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 10px;
+    
+}
+
+.footer{
+    display: flex;
+    font-size: 7px;
+    font-weight: bold;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.footer h2 {
+    padding: 0.2em;
+}
+
+.footer svg{
+    padding: 0.2em;
+}
+
+.logos{
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+}
+
+.red-asterisk::after {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+  
+.sol-in{
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    top: 64%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open sans';
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 991px) {
+    .logo-bloc img {
+        display: none;
+    }
+    .responsivelogo {
+        display: none;
+    }
+    .head h1{
+        display: none;
+    }
+    .write-us{display: none}
+}
+@media screen and (min-width: 991px) {
+
+    .green-bar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2%;
+        height: 1357px;
+        background-color: #9EBCB3;
+        z-index: 100;
+    }
+
+    .desktop-wrapper{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .head{
+        height: 140px;
+
+    }
+
+    .container-devel-pgs {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .logo-bloc{
+       display: none;
+    }
+    .responsivelogo .text-intro-bis {
+        width: 70%;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+
+    }
+
+    .responsivelogo{
+        margin: 18px auto 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 80%;
+        height: 345px;
+        z-index: 1;
+    }
+
+    .resp-lg{
+        width:27%;
+        height: 313px;
+    }
+    .once{
+        display: none;
+    }
+    .container-devel-pgs .logo-bloc{
+        align-items: flex-end;
+
+    }
+    .container-devel-pgs .text-intro-bis {
+        width: 70%;
+
+    }
+    .text-intro {
+        display: none;
+    }
+    .intro {display: none}
+
+    hr{
+        border: solid 5px #c83353;
+        width: 80%;
+    }
+
+    .wrapper{
+        margin-top: 30px;
+    }
+
+    .illust-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mic{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .mic .medicim{
+        height: 205px;
+        width: 37%;
+    }
+
+    .mic span{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 48px;
+        margin: 0;
+    }
+
+
+    .mic svg{
+        display: none;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .mic2{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .mic2 span {
+        font-size: 28px;
+        font-weight: 500;
+
+
+    }
+
+    .mic2 ul{
+        line-height: 55px;
+    }
+
+    .mic2 li svg {
+        margin-top: 25px;
+    }
+    .mic2 .microim{
+        height: 250px;
+        width: 30%;
+    }
+    .form-area {
+        margin: 0px 173px auto;
+
+
+
+    }
+
+    .triangle{
+
+        border-top: 123px solid transparent;
+        border-bottom: 158px solid transparent;
+        border-left: 70vw solid #9EBCB3;
+
+    }
+
+     .write-us{
+         position: absolute;
+         left: 90px;
+         color: white;
+         top: 90px
+    }
+
+    .cont-form{
+        width: 50%;
+        margin-left: 500px;
+    }
+
+    footer{
+        justify-content: center;
+
+    }
+
+    footer h2 {
+        font-size: 15px;
+    }
+    .write-us{
+        font-weight: bold;
+    }
+    .firstw{
+        margin: 0;
+        font-weight: bold;
+        font-size: 30px;
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+}

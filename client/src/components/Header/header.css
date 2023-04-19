@@ -1,0 +1,19 @@
+.head{
+    height: 80px;
+    width: 100%;
+    background-color: #EBEBEB;
+    position: absolute;
+    
+}
+
+.head h1{
+    position: absolute;
+    top: 94px;
+    color: #c83353;
+    left: 260px;
+    margin: 0px auto;
+    letter-spacing: 2px;
+}
+
+
+
